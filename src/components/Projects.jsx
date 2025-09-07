@@ -13,8 +13,8 @@ const projects = [
     ],
     stack: ["React", "Bootstrap 5", "Tailwind CSS", "CoinGecko API"],
     links: [
-      { label: "Demo", href: "https://cryptoplace-demo.com" },
-      { label: "GitHub", href: "https://github.com/yourusername/cryptoplace" },
+    
+      { label: "GitHub", href: "https://github.com/nagarajkannan/cryptoplace" },
     ],
   },
   {
@@ -37,8 +37,8 @@ const projects = [
       "Stripe/Razorpay",
     ],
     links: [
-      { label: "Demo", href: "https://ecommerce-demo.com" },
-      { label: "GitHub", href: "https://github.com/yourusername/ecommerce" },
+      
+      { label: "GitHub", href: "https://github.com/nagarajkannan/Ecommerce-Application" },
     ],
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     ],
     stack: ["React", "Bootstrap", "Tailwind CSS"],
     links: [
-      { label: "Demo", href: "https://todo-demo.com" },
+      
       { label: "GitHub", href: "https://github.com/yourusername/todo-app" },
     ],
   },
@@ -68,10 +68,10 @@ const projects = [
     ],
     stack: ["MongoDB", "Express.js", "React", "Node.js"],
     links: [
-      { label: "Demo", href: "https://login-demo.com" },
+     
       {
         label: "GitHub",
-        href: "https://github.com/yourusername/login-auth",
+        href: "https://github.com/nagarajkannan/login",
       },
     ],
   },
@@ -125,9 +125,9 @@ export default function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className={`px-4 py-2 rounded-lg text-sm font-medium shadow-md transition-transform duration-200 hover:scale-105 ${
-                        l.label === "Demo"
-                          ? "bg-green-600 hover:bg-green-700 text-white"
-                          : "bg-gray-900 hover:bg-black text-white"
+                        l.label === "GitHub"
+                          ? "bg-green-900 hover:bg-green-700 text-white"
+                          : ""  
                       }`}
                     >
                       {l.label}
